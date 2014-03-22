@@ -11,7 +11,7 @@
 
 $config['assets']['minify_css']           = true;
 $config['assets']['minify_js']            = true;
-$config['assets']['pack_js']              = true;
+$config['assets']['pack_js']              = false;
 $config['assets']['enable_less']          = true;
 $config['assets']['enable_sass']          = true;
 $config['assets']['enable_coffeescript']  = true;
@@ -23,12 +23,12 @@ $config['assets']['freeze']               = false;
 |--------------------------------------------------------------------------
 |
 | Define if the cache folder should be cleared when generating new cache files
-| 
+|
 */
 
 $config['assets']['auto_clear_cache']     = true;
-$config['assets']['auto_clear_css_cache'] = false;
-$config['assets']['auto_clear_js_cache']  = false;
+$config['assets']['auto_clear_css_cache'] = true;
+$config['assets']['auto_clear_js_cache']  = true;
 
 /*
 |--------------------------------------------------------------------------
@@ -41,10 +41,10 @@ $config['assets']['auto_clear_js_cache']  = false;
 |
 */
 
+$config['assets']['html5']      = true;
 $config['assets']['base_url']   = null;
 $config['assets']['assets_dir'] = 'assets';
+$config['assets']['cache_dir']  = 'cache';
 $config['assets']['js_dir']     = 'js';
 $config['assets']['css_dir']    = 'css';
-$config['assets']['cache_dir']  = 'cache';
 $config['assets']['img_dir']    = 'img';
-$config['assets']['html5']      = true;

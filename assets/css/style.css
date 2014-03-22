@@ -1,0 +1,32 @@
+/**
+ * Please put your css here.
+ */
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+#container {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.welcome {
+    color: #666;
+    font-family: "Georgia", serif;
+    font-style: italic;
+}
+
+.code {
+    color: #666;
+    padding: 1em;
+    background: #eee;
+}
+
+.text-green {
+    color: green;
+}
+
+.content {
+    border-top: 1px solid #eee;
+}
